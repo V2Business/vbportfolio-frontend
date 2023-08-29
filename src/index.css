@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Lastica;
+	src: url("./assets/Fonts/Lastica.ttf");
+}
+
+.font-Figtree {
+	font-family: "Figtree", serif;
+}
+
+.font-Lastica {
+	font-family: "Lastica", cursive;
+}
+
+body,
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body::--webkit-scrollbar {
+	display: none;
+	visibility: none;
+}
+
+.contactHead {
+	text-shadow: 1px -2px #000;
+}
+
+/* .attachFile::-webkit-file-upload-button {
+	display: none;
+}
+.attacFile::-webkit-input-placeholder {
+	display: none;
+} */
+
+/* .attachFile::before {
+	content: "<>Add Atttachment</>";
+	display: inline-block;
+	color: #000;
+	padding: 0.5rem 1rem;
+	outline: none;
+	border: 1px solid #000;
+	font-family: Figtree;
+	font-size: 1.2rem;
+	font-weight: semibold;
+	cursor: pointer;
+} */
+
+/* .attachFile::after {
+	display: none;
+} */
